@@ -3,5 +3,6 @@ public class Connection {
         Database sql =new MySql();
         Database oracle=new Oracle();
         sql.getConnection();
+        oracle.getConnection();
     }
 }
